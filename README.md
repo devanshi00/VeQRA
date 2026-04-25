@@ -1,4 +1,5 @@
-# VeQRA — Visual Earth Query and Retrieval Assistant
+# Generative AI for Natural Language Understanding of Satellite Imagery
+## VeQRA — Visual Earth Query and Retrieval Assistant
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -26,6 +27,9 @@ VeQRA bridges the gap between complex computer vision tasks and user interaction
 
 All interactions, including chat history and image analysis results, are persisted via **PostgreSQL**, ensuring a continuous and stateful workflow.
 
+## Solution Architecture
+<img width="633" height="362" alt="Screenshot 2026-04-21 at 12 59 20 PM" src="https://github.com/user-attachments/assets/8c1f02fe-0a95-4ce0-8d6b-7c6381e5f414" />
+
 ## Core Features
 
 ### Backend (Intelligence & Logic)
@@ -39,6 +43,8 @@ All interactions, including chat history and image analysis results, are persist
 - **Theme-Aware**: Supports Dark and Light modes.
 - **Visual Query Interface**: Drag-and-drop image uploads with immediate preview and result visualization.
 - **Session Management**: Organized history grouping by date.
+
+<img width="831" height="231" alt="Screenshot 2026-04-25 at 10 15 44 PM" src="https://github.com/user-attachments/assets/79df4780-e20f-4a00-9818-383b5ebb8c11" />
 
 ## Tech Stack
 
@@ -305,3 +311,6 @@ The endpoint accepts a structured JSON payload defining the image metadata and t
   - **Standardization**: Ensures consistent output formats for benchmarking.
   - **Efficiency**: Reduces network overhead by consolidating multiple API calls.
   - **Automation**: Designed for batch processing large datasets.
+
+## Acknowledgements
+This project is a part of course CS450 Generative AI under the supersion of Prof Chandresh Kumar Maurya.
