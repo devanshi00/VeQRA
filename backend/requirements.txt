@@ -1,0 +1,13 @@
+accelerate
+bitsandbytes
+fastapi
+peft
+Pillow
+qwen-vl-utils
+scikit-learn
+tensorboard
+torch
+torchvision
+transformers
+ultralytics
+uvicorn

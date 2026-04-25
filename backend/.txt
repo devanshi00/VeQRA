@@ -1,0 +1,12 @@
+wget https://nodejs.org/dist/latest-v20.x/node-v20.19.6-linux-x64.tar.xz
+
+tar -xf node-v20.19.6-linux-x64.tar.xz
+
+export PATH=$PWD/node-v20.19.6-linux-x64/bin:$PATH
+
+export HF_HOME=/raid/inter_iit/isro/hf_cache
+export TMPDIR=/raid/inter_iit/isro/tmp
+export PIP_CACHE_DIR=/raid/inter_iit/isro/pipcache
+export PYVER="3.10"
+export PYTHONPATH=$HOME/.local/lib/python${PYVER}/site-packages:$PYTHONPATH
+export PATH=$HOME/.local/bin:$PATH
