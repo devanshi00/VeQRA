@@ -312,5 +312,3 @@ The endpoint accepts a structured JSON payload defining the image metadata and t
   - **Efficiency**: Reduces network overhead by consolidating multiple API calls.
   - **Automation**: Designed for batch processing large datasets.
 
-## Acknowledgements
-This project is a part of course CS450 Generative AI under the supersion of Prof Chandresh Kumar Maurya.
